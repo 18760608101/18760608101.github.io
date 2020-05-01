@@ -6,9 +6,9 @@ body{
 	background-color:#ffe6f7 ;
 }
 h1{
-	display: block;
-	margin-left: 50%;
-	transform: translateX(-34%);
+	display:block;
+	margin-left:50%;
+	transform:translateX(-34%);
 	color:lightpink;
 }
 .next{
