@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:#ffe6f7 ;
+	padding-top: 40px;
+}
+h1{
+	display: block;
+	margin-left: 50%;
+	transform: translateX(-34%);
+	color:lightpink;
+}
+.next{
+	width: 100px;
+	height: 200px;
+	background-color: rgba(0,0,0,0.25);
+	position: fixed;
+	top: 50%;
+	right: 40px;
+	transform: translateY(-100px);
+	z-index: 2000;
+	border-radius: 20px;
+}
+.next a{
+	display: block;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+}
+.box{
+	width:400px;
+	height: 550px;
+	margin: 60px auto;
+	text-align: center;
+	background-color: lightpink;
+	border-radius: 10px;
+	border: none;
+	box-shadow: -3px -3px 7px #ffffff73,
+				2px 2px 5px rgba(94,104,121,0.288);
+}
+table{
+	margin: 0px auto;
+}
+.form input{
+	width: 300px;
+	height: 60px;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-left: 2.5px;
+	margin-bottom: 4px;
+	box-shadow:inset -1px -1px 5px rgba(0,0,0,0.3);
+	border: 2px white solid;
+}
+tr .button{
+	width: 70px;
+	height: 70px;
+	margin: 2px;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	background-color: pink;
+	border: none;
+}
+tr .button:active{
+	width: 67px;
+	height: 67px;
+	margin: 2px;
+	color: white;
+	opacity: 0.5;
+	font-size: 30px;
+	cursor: pointer;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	background-color: #3689a5;
+	border: none;
+}
+#a1{
+	height:147px ;
+}
+#a2{
+	width:147px;
+}
