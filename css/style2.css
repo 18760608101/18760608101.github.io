@@ -5,6 +5,28 @@
 body{
 	background-color:#ffe6f7 ;
 }
+.next{
+	width: 100px;
+	height: 200px;
+	background-color: rgba(0,0,0,0.25);
+	position: fixed;
+	top: 50%;
+	right: 40px;
+	transform: translateY(-100px);
+	z-index: 2000;
+	border-radius: 20px;
+}
+.next a{
+	display: block;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+}
 .box{
 	width:400px;
 	height: 550px;
